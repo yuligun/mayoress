@@ -3,7 +3,7 @@ description: Претендентка на пост главы Краснояр�
 email: she@mayorness.ru
 baseurl: ""
 url: "http://мэрка.рф"
-logo: "mayoress.jpg"
+logo: "mayoress-sd.jpg"
 
 google_analytics: UA-107038914-1
 
@@ -18,7 +18,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/mayoress.jpg
+      image: /assets/mayoress-sd.jpg
 
 social:
   name: Юлия Ганусова
