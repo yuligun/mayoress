@@ -1,8 +1,9 @@
-title: МЭРКА.РФ
+title: Юлия Ганусова
+description: Претендентка на пост главы Красноярска
 email: she@mayorness.ru
-description: Юлия Ганусова. Красноярск  
 baseurl: ""
 url: "http://мэрка.рф"
+logo: "mayoress.jpg"
 
 google_analytics: UA-107038914-1
 
@@ -10,15 +11,26 @@ google_analytics: UA-107038914-1
 markdown: kramdown
 theme: minima
 plugins:
+   - jekyll-seo-tag
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+gems:
+  - octopress-minify-html
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/mayoress.jpg
+
+social:
+  name: Юлия Ганусова
+  type: Person
+  links:
+    - https://twitter.com/yuliyaganusova
+    - https://www.facebook.com/yuliya.ganusova
+    - https://vk.com/id57267362
+    - https://www.instagram.com/yuliyaganusova
+    - https://ok.ru/profile/82740235
+
+twitter:
+  username: yuliyaganusova
