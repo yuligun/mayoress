@@ -1,0 +1,34 @@
+title: Юлия Ганусова
+description: Претендентка на пост главы Красноярска
+email: she@mayorness.ru
+baseurl: ""
+url: "http://мэрка.рф"
+logo: "mayoress-sd.jpg"
+
+google_analytics: UA-107038914-1
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-seo-tag
+  - octopress-minify-html  
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/mayoress-sd.jpg
+
+social:
+  name: Юлия Ганусова
+  type: Person
+  links:
+    - https://twitter.com/yuliyaganusova
+    - https://www.facebook.com/yuliya.ganusova
+    - https://vk.com/id57267362
+    - https://www.instagram.com/yuliyaganusova
+    - https://ok.ru/profile/82740235
+
+twitter:
+  username: yuliyaganusova
