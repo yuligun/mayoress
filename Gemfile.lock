@@ -77,7 +77,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (= 3.5.2)
   jekyll-feed (~> 0.6)
-  jekyll-seo-tag
+  jekyll-seo-tag (~> 2.3.0)
   minima (~> 2.0)
   octopress-minify-html
   tzinfo-data

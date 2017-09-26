@@ -11,10 +11,8 @@ google_analytics: UA-107038914-1
 markdown: kramdown
 theme: minima
 plugins:
-   - jekyll-seo-tag
-
-gems:
-  - octopress-minify-html
+  - jekyll-seo-tag
+  - octopress-minify-html  
 
 defaults:
   - scope:
